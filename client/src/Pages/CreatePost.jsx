@@ -24,7 +24,7 @@ const CreatePost = () => {
           {
             method: "POST",
             headers: {
-              "Content-Type": "application/json",
+              "Content-Type": "application/javascript",
             },
             body: JSON.stringify({
               prompt: form.prompt,
@@ -54,7 +54,7 @@ const CreatePost = () => {
           {
             method: "POST",
             headers: {
-              "Content-Type": "application/json",
+              "Content-Type": "application/javascript",
             },
             body: JSON.stringify(form),
           }
